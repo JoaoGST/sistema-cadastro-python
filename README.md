@@ -3,6 +3,8 @@
 Sistema de cadastro desenvolvido em Python para execução no terminal.  
 O projeto permite cadastrar, listar, pesquisar, editar e excluir usuários, com validações de dados e organização das informações.
 
+---
+
 ## 🚀 Funcionalidades
 - Cadastro de usuários com **ID único**
 - Validação de dados:
@@ -20,12 +22,17 @@ O projeto permite cadastrar, listar, pesquisar, editar e excluir usuários, com 
   - Email
 - Edição de dados do cadastro
 - Exclusão de usuários com confirmação
+- Geração de **relatório HTML responsivo** (desktop e mobile)
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 - **Python 3**
 - Bibliotecas padrão:
   - `datetime`
   - `time`
+
+---
 
 ## 🎯 Objetivo do Projeto
 Projeto desenvolvido com o objetivo de praticar e consolidar conceitos fundamentais de programação em Python, como:
@@ -34,61 +41,71 @@ Projeto desenvolvido com o objetivo de praticar e consolidar conceitos fundament
 - Manipulação de listas e dicionários
 - Criação e uso de funções
 - Validação de entradas do usuário
+- Integração entre Python e HTML
+
+---
 
 ## ▶️ Como Executar
 1. Certifique-se de ter o **Python 3** instalado
 2. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
-3. Execute o arquivo principal:
+3. Acesse a pasta do projeto e execute:
    ```bash
    python main.py
 
------
+------
 
 # 📋 Python Registration System
 
----
-
-## 🇺🇸 English
-
-### 📌 Description
-A registration system developed in Python for terminal execution.  
-It allows you to register, list, search, edit, and delete users, featuring data validation and information formatting.
+A terminal-based registration system developed in Python.  
+This project allows you to register, list, search, edit, and delete users, featuring data validation and organized information management.
 
 ---
 
-### 🚀 Features
-- **User registration** with a unique ID
-- **Data validation** (email, phone, and date of birth)
+## 🚀 Features
+- User registration with a **unique ID**
+- Data validation for:
+  - Email addresses
+  - Phone numbers
+  - Dates of birth
 - **Automatic age calculation**
-- **Formatted listing** of all records
-- **Advanced search**: by name, ID, age, city, state (UF), and email
-- **Edit and delete** functionalities
+- User listing with user-friendly formatting
+- Search by:
+  - Name
+  - ID
+  - Age
+  - City
+  - State (Province/UF)
+  - Email
+- Edit existing registration data
+- User deletion with a confirmation prompt
+- Generation of a **responsive HTML report** (Desktop and Mobile)
 
 ---
 
-### 🛠️ Technologies Used
+## 🛠️ Technologies Used
 - **Python 3**
-- Standard libraries:
+- Standard Libraries:
   - `datetime`
   - `time`
 
 ---
 
-### 🎯 Project Goal
-This project was created to practice and consolidate fundamental Python programming concepts, such as:
+## 🎯 Project Objective
+This project was developed to practice and consolidate fundamental Python programming concepts, such as:
 - Programming logic
-- Control flow and loops
-- Lists and dictionaries manipulation
-- Function creation
+- Loops and conditional structures
+- Manipulation of lists and dictionaries
+- Function creation and implementation
 - User input validation
+- Integration between Python and HTML
 
 ---
 
-### ▶️ How to Run
-1. Make sure you have **Python 3** installed.
-2. Clone the repository:
+## ▶️ How to Run
+1. Ensure you have **Python 3** installed.
+2. Clone this repository:
    ```bash
    git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
 3. Navigate to the project folder and run:
