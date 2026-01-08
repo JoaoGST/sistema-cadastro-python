@@ -450,14 +450,24 @@ O que deseja fazer?
 
         sleep(0.5)
         print('~' * 35)
-        for i, (k, v) in enumerate(pessoa.items()):
-            print(f'{i} - {k.ljust(12)} {v}')
+        chaves_editaveis = [k for k in pessoa.keys() if k != 'idade']
+
+        for i, k in enumerate(chaves_editaveis):
+            print(f'{i} - {k.ljust(12)} {pessoa[k]}')
         print('~' * 35)
 
         sleep(1)
         try:
             escolha_editar = int(input('Digite o número do dado que deseja mudar: '))
-            chave = list(pessoa.keys())[escolha_editar]
+            chave = chaves_editaveis[escolha_editar]
+            if chave == 'idade':
+                print('A idade não pode ser editada diretamente.')
+                sleep(0.5)
+                print('Edite a data de nascimento que a idade será recalculada automaticamente.')
+                sleep(1)
+                continue
+
+
         except (ValueError, IndexError):
             print('Opção inválida.')
             continue
